@@ -1,16 +1,17 @@
-# Foundry VTT Module Template
-This is a template for creating a Foundry VTT module using TypeScript.
+# externalHelper
 
-Features:
+![Build](https://github.com/BCNelson/externalHelper/workflows/Build/badge.svg)
 
-- TypeScript
-- Bundled with esbuild
-- [devcontainer](https://containers.dev/)
-- Vscode debugging (coming soon)
+<!---
+Add a Description of your module here and what it does
+-->
 
-## Getting Started
-1. Click the "Use this template" button on the GitHub page [docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-2. Clone the repository
-3. Open the repository in vscode
-4. Open the command palette (ctrl+shift+p) and run `Dev Containers: Reopen in Container` or click on the popup in the bottom right corner if it appears
-5. Follow the todo list in the [todo.md](./.github/template-cleanup/todo.md) file
+
+## Installation
+To install, search for "%Name%" in your module browser inside Foundry VTT.
+Alternatively, you can manually install the module by following these steps:
+
+Inside Foundry, select the Game Modules tab in the Configuration and Setup menu.
+Click the Install Module button and enter the following URL: https://github.com/BCNelson/externalHelper/releases/latest/download/module.json
+
+Click Install and wait for installation to complete.
